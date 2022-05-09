@@ -24,3 +24,4 @@ checkmarx:
         presetName: 'High and Medium'
          # configure if this specific project will be run incrementally or will it run a full scan 
         incremental: 'false'
+        filter: '!**/test'
